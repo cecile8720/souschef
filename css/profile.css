@@ -3,7 +3,12 @@
 }
 
 #avatar {
-  width: 50%;
+  width: 25%;
+  height: 50%;
+}
+
+#ui-block-b {
+  text-align: center;
 }
 
 .container {
