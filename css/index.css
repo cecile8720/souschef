@@ -1,5 +1,27 @@
+html .ui-page {
+    /*background: linear-gradient(to bottom, #a7e084 -50%, #fff9d4 105%) !important;
+		background: transparent url(background.jpg) !important; */
+		background: linear-gradient(to bottom right, #c3eee4 0%, #fff9d4 100%) !important;
+		/*background: linear-gradient(to bottom right, #c6df5f -20%, #fff9d4 104%) !important;*/
+
+
+	}
+	.ui-icon-check {
+	      background-color: red !important;
+	      box-shadow: none !important;
+	}
+	.ui-page .ui-header {
+	    background: #c3eee4 !important;
+			text-shadow:0 0 0 !important;
+			box-shadow: none !important;
+	}
+
+#header {
+	color: white !important;
+}
+
 body, html {
-	background-color: White;
+
 }
 
 .center-wrapper {
@@ -25,15 +47,15 @@ body, html {
 		margin-right: 10px;
 		width: 30%;
 		height: 13vw;
-	}	
+	}
 	.row {
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 30px;
-	}	
+	}
 	.title {
-		color: DarkCyan;
+		color: #FFCC66;
 		text-align: center;
 		margin-top: -20px;
 		margin-bottom: -15px;
@@ -74,7 +96,7 @@ body, html {
 		margin-right: 10px;
 		width: 43%;
 		height: 20vw;
-	}	
+	}
 	.row {
 		text-align: center;
 		margin-left: auto;
@@ -110,6 +132,8 @@ body, html {
 @media screen and (max-width: 767px) {
 	.block h3 {
 		font-size: 23px;
+		color: #ff8652;
+		text-shadow:0 0 0 !important;
 	}
 	.block {
 		vertical-align: middle;
@@ -118,12 +142,12 @@ body, html {
 		border-style: solid;
 		border-color: #000;
 		border-radius: 24px;
-		background-color: #d3d3d3;
+		background-color:#fffdf0;
 		margin-left: 10px;
 		margin-right: 10px;
 		width: 40%;
 		height: 40vw;
-	}	
+	}
 	.row {
 		text-align: center;
 		margin-left: auto;
@@ -131,10 +155,11 @@ body, html {
 		margin-bottom: 20px;
 	}
 	.title {
-		color: DarkCyan;
+		color: #c23819;
 		text-align: center;
 		margin-top: -20px;
 		margin-bottom: -20px;
+		font-weight: bold !important;
 	}
 	.title h1 {
 		font-size: 400%;
@@ -152,5 +177,3 @@ body, html {
 		height: 13vw;
 	}
 }
-
-

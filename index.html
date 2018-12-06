@@ -7,20 +7,30 @@
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+    <style>
+      body { background-color:#fafafa; font-family:'Quicksand'; font-weight: bold;}
+    </style>
 </head>
-<body>
+<body background="background.jpg">
+  <style>
+
+
+
+</style>
     <div data-role="page">
- 
+
         <div data-role="header">
             <a href="javascript:history.back()" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-l ui-btn-icon-notext">Back</a>
             <a data-ajax="false" href="profile.html" class="ui-btn-right ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-notext">Profile</a>
             <a data-ajax="false" href="favorites.html" class="ui-btn-right ui-btn ui-icon-star ui-btn-icon-notext ui-shadow ui-corner-all" style="margin-right: 40px;"id="search" data-role="button" role="button">Search</a>
 
-            <h1>Home Page</h1>
+            <h1 id="headername"><font color="" size="4">Home Page</font></h1>
         </div><!-- /header -->
- 
+
         <div role="main" class="ui-content">
-            
+
             <div class="title">
                 <h1>Sous Chef</h1>
             </div>
@@ -65,8 +75,8 @@
             </div>
 
         </div><!-- /content -->
- 
- 
+
+
     </div><!-- /page -->
 </body>
 </html>
