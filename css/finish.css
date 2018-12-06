@@ -1,3 +1,14 @@
+.ui-page {
+		/*background: linear-gradient(to bottom right, #c3eee4 0%, #fff9d4 100%) !important;*/
+    background: #fffdf0 !important;
+	}
+
+.ui-page .ui-header {
+    background: #c3eee4 !important;
+    text-shadow:0 0 0 !important;
+    box-shadow: none !important;
+}
+
 .center-wrapper {
 	text-align: center;
 }
