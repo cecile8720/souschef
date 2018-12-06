@@ -1,4 +1,18 @@
-.p page-description{
+.ui-page .ui-header {
+    background: #c3eee4 !important;
+    text-shadow:0 0 0 !important;
+    box-shadow: none !important;
+}
+
+.ui-page {
+    background: #fffdf0 !important;
+	}
+
+#desc {
+	margin-left: 15px;
+}
+
+.p {
 	margin-top:10px;
   text-align: center;
 }
@@ -24,5 +38,5 @@
 	border-top-width: 1px;
 	border-bottom-width: 1px;
 	align-content: center;
-	
+
 }

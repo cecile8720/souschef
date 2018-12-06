@@ -2,6 +2,16 @@
 	margin-right: 40px;
 }
 
+.ui-page .ui-header {
+    background: #c3eee4 !important;
+    text-shadow:0 0 0 !important;
+    box-shadow: none !important;
+}
+
+.ui-page {
+    background: #fffdf0 !important;
+	}
+
 .recipe-pic img{
 	display: block;
 	margin: auto;
@@ -32,4 +42,3 @@
 .absent {
 	text-decoration: line-through;
 }
- 
