@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+	//localStorage.remove(listItems);
 	// Retrieves previous list items
 	$('#list-items').html(localStorage.getItem('listItems'));
 	// Retrieves previous checked items

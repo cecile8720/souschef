@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+	//localStorage.remove(groceries);
+	//localStorage.remove(listItems);
 	$('#list-items2').html(localStorage.getItem('listItems'));
 	$('#list-items').html(localStorage.getItem('groceries'));
 
@@ -8,11 +9,6 @@ $(document).ready(function () {
 		event.preventDefault();
 		var item = $('#input').val();
 		if(item) {
-			/*
-			$('#list-items').append("<li><input class='checkbox' type='checkbox'/>" + item + "<a class='remove'>x</a><hr></li>");
-			localStorage.setItem('listItems', $('#list-items').html());
-			$('#input').val("");*/
-
 			$('#list-items').append("<li><input class='checkbox' type='checkbox'/>" + item + "<a class='remove'>X</a><hr></li>");
 			localStorage.setItem('groceries', $('#list-items').html());
 			$('#input').val("");
@@ -31,16 +27,23 @@ $(document).ready(function () {
 			// send item to ingredients list
 			var word = this.closest('li').innerText;
 			word = word.slice(0,-2);
+			console.log(word);
+			$('#list-items2').html(localStorage.getItem('listItems'));
 			$('#list-items2').append("<li><input class='checkbox' type='checkbox'/>" + word + "<a class='remove'>X</a><hr></li>");
 			localStorage.setItem('listItems', $('#list-items2').html());
+
+			$(this).parent().remove();
+			localStorage.setItem('groceries', $('#list-items').html());
+			//$('#input').val("");
 		}
 		$(this).parent().toggleClass('completed');
-		localStorage.setItem('listItems', $('#list-items').html());
+		localStorage.setItem('groceries', $('#list-items').html());
+		//console.log(localStorage.getItem(listItems));
 	});
 
 	$(document).on('click', '.remove', function() {
 		$(this).parent().remove();
-		localStorage.setItem('listItems', $('#groceries').html());
+		localStorage.setItem('groceries', $('#list-items').html());
 	});
 
 });
