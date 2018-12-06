@@ -16,7 +16,7 @@ $(document).ready(function () {
 		event.preventDefault();
 		var item = $('#input').val();
 		if(item){
-			$('#list-items').append("<li><input class='checkbox' type='checkbox'/>" + item + "<a class='remove'>x</a><hr></li>");
+			$('#list-items').append("<li><input class='checkbox' type='checkbox'/>" + item + "<a class='remove'>X</a><hr></li>");
 			localStorage.setItem('listItems', $('#list-items').html());
 			$('#input').val("");
 		}
