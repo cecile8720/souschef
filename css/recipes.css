@@ -42,3 +42,14 @@
 .absent {
 	text-decoration: line-through;
 }
+
+.checklist {
+	font-size: 25px;
+}
+
+.step-num {
+	text-align: center;
+	position: absolute;
+	bottom: 70px;
+	width: 90%;
+}
