@@ -13,3 +13,8 @@
 .center-wrapper {
 	text-align: center;
 }
+
+.selected {
+	background-color: #008CBA !important;
+	color: white !important;
+}

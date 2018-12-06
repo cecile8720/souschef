@@ -1,70 +1,72 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-	<head>
-		<title>Sous Chef</title>
-		<link href="css/index.css" type="text/css"
-		      rel="stylesheet" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
+<head>
+    <title>Sous Chef</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+ 
+        <div data-role="header">
+            <a href="javascript:history.back()" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-l ui-btn-icon-notext">Back</a>
+            <a data-ajax="false" href="profile.html" class="ui-btn-right ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-notext">Profile</a>
+            <a data-ajax="false" href="favorites.html" class="ui-btn-right ui-btn ui-icon-star ui-btn-icon-notext ui-shadow ui-corner-all" style="margin-right: 40px;"id="search" data-role="button" role="button">Search</a>
 
-	<body>
+            <h1>Home Page</h1>
+        </div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+            
+            <div class="title">
+                <h1>Sous Chef</h1>
+            </div>
 
-		<div class="dropdown">
-			<a href="profile.html">
-				<img src="img/profile-button.png" 
-				     class="drop-button" id="profile-button"> 
-			</a>
-		</div>
+            <!-- Top Row -->
+            <div class="row" id="row1">
+                <!-- Top Left Block -->
+                <a data-ajax="false" href="ingredients.html">
+                    <div class="block" id="block1">
+                        <h3>Search<br />
+                            by<br />
+                            Ingredients</h3>
+                    </div>
+                </a>
 
-		<!-- App Title -->
-		<div class="title">
-			<h1>Sous Chef</h1>
-		</div>
+                <!-- Top Right Block -->
+                <a data-ajax="false" href="recipe-list.html">
+                    <div class="block" id="block2">
+                        <h3>All<br />
+                            Recipes</h3>
+                    </div>
+                </a>
+            </div>
 
-		<!-- Top Row -->
-		<div class="row" id="row1">
-			<!-- Top Left Block -->
-			<a data-ajax="false" href="ingredients.html">
-				<div class="block" id="block1">
-					<h3>Cook<br />
-						by<br />
-						Ingredients</h3>
-				</div>
-			</a>
+            <!-- Second Row-->
+            <div class="row" id="row2">
+                <!-- Bottom Left Block -->
+                <a data-ajax="false" href="grocerylist.html">
+                    <div class="block" id="block3">
+                        <h3>Grocery<br />
+                            List</h3>
+                    </div>
+                </a>
 
-			<!-- Top Right Block -->
-			<a data-ajax="false" href="recipe-list.html">
-				<div class="block" id="block2">
-					<h3>Recipes</h3>
-				</div>
-			</a>
-		</div>
+                <!-- Bottom Right Block -->
+                <a data-ajax="false" href="learning.html">
+                    <div class="block" id="block4">
+                        <h3>Learning<br />
+                            Resource</h3>
+                    </div>
+                </a>
+            </div>
 
-		<!-- Second Row-->
-		<div class="row" id="row2">
-			<!-- Bottom Left Block -->
-			<a data-ajax="false" href="grocerylist.html">
-				<div class="block" id="block3">
-					<h3>Grocery<br />
-						List</h3>
-				</div>
-			</a>
-
-			<!-- Bottom Right Block -->
-			<a data-ajax="false" href="learning.html">
-				<div class="block" id="block4">
-					<h3>Learning<br />
-						Resource</h3>
-				</div>
-			</a>
-		</div>
-<!--
-		<div class="center-wrapper">
-			<a data-ajax="false" href="home-redesign.html">Redesigned Home Page</a>
-		</div>
-	-->
-
-	</body>
-
+        </div><!-- /content -->
+ 
+ 
+    </div><!-- /page -->
+</body>
 </html>
