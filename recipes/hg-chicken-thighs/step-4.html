@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+    <style>
+      body { background-color:#fafafa; font-family:'Quicksand';}
+    </style>
 </head>
 <body>
     <div data-role="page">
- 
+
         <div data-role="header" data-position="fixed">
             <a data-ajax="false" href="../../index.html" class="ui-btn-right ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
             <h1>Step 4</h1>
@@ -31,13 +36,12 @@
                 step 4 of 5
             </div>
         </div><!-- /content -->
- 
+
         <div data-role="footer" data-position="fixed">
-            <a data-ajax="false" href="step-3.html" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left" style="margin-left: 13px">Prev Step</a>
-            <a data-ajax="false" href="step-5.html" class="ui-btn ui-btn-right ui-btn-inline ui-icon-arrow-r ui-btn-icon-right">Next Step</a>
+            <a data-ajax="false" id="bt" href="step-3.html" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left" style="margin-left: 13px">Prev Step</a>
+            <a data-ajax="false" id="bt"  href="step-5.html" class="ui-btn ui-btn-right ui-btn-inline ui-icon-arrow-r ui-btn-icon-right">Next Step</a>
         </div><!-- /footer -->
- 
+
     </div><!-- /page -->
 </body>
 </html>
-

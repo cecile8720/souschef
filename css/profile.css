@@ -9,6 +9,19 @@
     box-shadow: none !important;
 }
 
+.ui-page .ui-footer {
+    background: #fffdf0 !important;
+		border: none !important;
+}
+
+#start {
+	/*height: 30px;
+	font-size: 20px !important;*/
+	background-color: #ff8652;
+	color: white;
+	text-shadow:0 0 0 !important;
+}
+
 .imgcontainer {
   text-align: center;
 }
@@ -52,7 +65,7 @@
   float: center;
   width: 25%;
   padding: 0 5px;
-  
+
 }
 
 .row {
