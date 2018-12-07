@@ -2,10 +2,35 @@
 	margin-right: 40px;
 }
 
+#start {
+	height: 30px;
+	font-size: 20px !important;
+	background-color: #ff8652;
+	color: white;
+	text-shadow:0 0 0 !important;
+}
+
+#bt {
+	font-size: 17px !important;
+	background-color: #ff8652;
+	color: white;
+	font-family:'Quicksand';
+	text-shadow:0 0 0 !important;
+}
+
+
+
+
+
 .ui-page .ui-header {
     background: #c3eee4 !important;
     text-shadow:0 0 0 !important;
     box-shadow: none !important;
+}
+
+.ui-page .ui-footer {
+    background: #fffdf0 !important;
+		border: none !important;
 }
 
 .ui-page {
