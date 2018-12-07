@@ -18,9 +18,9 @@
   height: 50%;
 }
 
-#achievment {
-  text-align: center;
-
+.ui-block-a .center-wrapper .recipe-pic {
+  width: 50%;
+  height: 50%;
 }
 
 .container {
@@ -44,3 +44,48 @@
   text-align: center;
   padding-top: 10px;
 }
+* {
+  box-sizing: border-box;
+}
+/* Float four columns side by side */
+.column {
+  float: center;
+  width: 25%;
+  padding: 0 5px;
+  
+}
+
+.row {
+      margin: 0 -5px;
+      height: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 50%;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 10px;
+  text-align: center;
+  background-color: #fffdf0;
+  color: black;
+  display: inline-block;
+  height: 170px;
+}
+
+.fa {font-size:50px;}
